@@ -1,54 +1,82 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails-React-Hello-World
 
-Things you may want to cover:
+> Implement a connection between a Ruby on Rails back-end and React front-end.
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- React - Redux
+- Postgres SQL
+- Webpack
+## Live Demo (if available)
 
-* Database creation
+[Not Available](https://livedemo.com)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 ## Getting Started
-To get a local copy up and running, follow the steps in Setup below.
+
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Basic knowledge of HTML, CSS.
+
+- You should have ruby installed in your machine, you can follow the steps given by the [official documentation](https://www.ruby-lang.org/en/documentation/installation/).
+
+- You should have a postgres user with superuser permissions. you can refer to the official [postgres documentation](https://www.postgresql.org/docs/current/role-attributes.html#:~:text=To%20create%20a%20new%20database,that%20is%20already%20a%20superuser.&text=A%20role%20must%20be%20explicitly,use%20CREATE%20ROLE%20name%20CREATEDB%20.) to create or update a role.
 
 ### Setup
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-[Download the ZIP from this location](https://github.com/Fatima-hub333/hello-rails-react/archive/refs/heads/dev.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+First, you must clone this repository locally running this command:
 
-```bash
+```
 git clone https://github.com/Fatima-hub333/hello-rails-react.git
 ```
 
-- Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/).
+and navigate to the cloned directory:
 
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+```
+cd my-new-rails-ap
+```
 
 ### Install
 
-The following tools help make easier to work with sample code.
+Once inside the project directory, you should install all project dependencies:
 
-- [git](https://git-scm.com/downloads): A tool for managing source code
-- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+- Install bundler:
 
-## Authors
+```
+gem install bundler
+```
+
+- Install project dependencies
+
+```
+bundle install
+```
+
+### Usage
+
+You can get the app running locally by opening a local server:
+
+```
+bin/rails server
+```
+
+### Run tests
+
+If you're on a linux-based system, you could run the executable file to run all specs:
+
+```
+bin/rspec
+```
+
+Windows users have to specify ruby in this case:
+
+```
+ruby bin/rspec
+```
 
 👤 **Fatima Zahir**
 
@@ -60,12 +88,17 @@ The following tools help make easier to work with sample code.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Fatima-hub333/hello-rails-react/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
